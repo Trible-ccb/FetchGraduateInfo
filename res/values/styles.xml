@@ -1,0 +1,78 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="PrimaryTextAppeare">
+        <item name="android:textColor">@color/black</item>
+    	<item name="android:textSize">18dp</item>
+    </style>
+    <style name="PropertyTextAppeare">
+        <item name="android:textColor">@color/black</item>
+    	<item name="android:textSize">16dp</item>
+    </style>
+    <style name="SecondTextAppeare">
+        <item name="android:textColor">@color/grey_a6</item>
+    	<item name="android:textSize">16dp</item>
+    </style>
+    <style name="NoteTimeTextAppeare">
+        <item name="android:textColor">@color/grey_999999</item>
+    	<item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="ButtonFull">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@drawable/pressor_bg_white_border</item>
+    </style>
+    <style name="ButtonFull.RedText">
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="ButtonFull.BlueText">
+        <item name="android:textColor">@color/blue_qq</item>
+    </style>
+    
+     <style name="CustomTabStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ListViewStyle">
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:listSelector">@color/transparent</item>
+    </style>
+    <style name="ChooseActionItemStyle">
+		<item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black_5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/pressor_blue_transparent</item>
+    </style>
+        <!-- Dialog theme. -->
+	<style name="CustomDialog" parent="@android:style/Theme.Dialog"> 
+    <item name="android:windowFrame">@null</item> 
+        <item name="android:windowIsFloating">true</item> 
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> 
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item> 
+    </style> 
+    <style name="CustomProgressDialog" parent="@style/CustomDialog"> 
+        <item name="android:windowBackground">@android:color/transparent</item> 
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+</resources>
